@@ -1,0 +1,34 @@
+#ignore directories
+######################################################################
+#ignore build directory
+**/build/*
+!**/build/.gitkeep
+**/cmake-build-debug/*
+**/cmake-build-release/*
+
+#ignore log files
+applications/log/*
+!applications/log/.gitkeep
+
+#ignore clion files
+**/.idea/*
+!*.py
+
+#ignore files
+######################################################################
+#ignore temp files
+*~
+
+#ignore cmake temp file
+CMakeLists.txt.user
+
+#ignore applications
+app_*
+
+#ignore log files
+*.log
+
+#ignore point cloud files
+*.pcd
+*.asc
+*.bin
